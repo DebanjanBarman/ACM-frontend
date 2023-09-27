@@ -1,8 +1,3 @@
-# essentials
-
-# LIVE DEPLOYMENT LINK
-[CLICK HERE](https://acm-frontend.vercel.app/)
-
 ## Project setup
 
 ```
