@@ -1,8 +1,10 @@
 let api;
+
+const baseURL = "https://acm-3uso.onrender.com";
 export default api = {
-  login: "http://localhost:5000/api/users/login",
-  signup: "http://localhost:5000/api/users/signup",
-  forgotPassword: "http://localhost:5000/api/users/forgotPassword",
-  passwordReset: "http://localhost:5000/api/users/resetPassword",
-  getProducts: "http://localhost:5000/api/products"
+  login: `${baseURL}/api/users/login`,
+  signup: `${baseURL}/api/users/signup`,
+  forgotPassword: `${baseURL}/api/users/forgotPassword`,
+  passwordReset: `${baseURL}/api/users/resetPassword`,
+  getProducts: `${baseURL}/api/products`
 }
